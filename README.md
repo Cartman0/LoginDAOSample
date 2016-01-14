@@ -1,0 +1,2 @@
+# LoginDAOSample
+DAOパターンを用いてMySQLにアクセスする簡単なログイン機能のサンプル
