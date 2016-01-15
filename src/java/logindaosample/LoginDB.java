@@ -29,7 +29,6 @@ public class LoginDB extends Login {
                 bean = new LoginUserBean();
                 // ID（IDは引数のものをセット）
                 bean.setId(id);
-                System.out.println(rs.getString("name"));
                 // 名前
                 bean.setName(rs.getString("name"));
                 // 年齢
