@@ -45,7 +45,7 @@ public class LoginDao {
 
             // SQLを実行
             rs = ps.executeQuery();
-            System.out.println(rs.getString("name"));
+            
         } catch (ClassNotFoundException cne) {
             cne.printStackTrace();
         } catch (SQLException sqle) {
